@@ -12,31 +12,31 @@ const Header: React.FC = () => {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/panda-world/PandaHome">Panda World</Link>
+                        <Link to="/panda-world">Panda World</Link>
                     </li>
                     <li>
-                        <Link to="/panda-world/About">About</Link>
+                        <Link to="/panda-world/about">About</Link>
                     </li>
                     <li>
-                        <Link to="/panda-world/Contact">Contact</Link>
+                        <Link to="/panda-world/contact">Contact</Link>
                     </li>
                     <li>
-                        <Link to="/panda-world/Mating">Mating</Link>
+                        <Link to="/panda-world/mating">Mating</Link>
                     </li>
                     <li>
-                        <Link to="/panda-world/DietaryInfo">Dietary Info</Link>
+                        <Link to="/panda-world/dietary-info">Dietary Info</Link>
                     </li>
                     <li>
-                        <Link to="/panda-world/ImageGallery">Image Gallery</Link>
+                        <Link to="/panda-world/image-gallery">Image Gallery</Link>
                     </li>
                     <li>
                         <Link to="/panda-world/anatomy-bio">Anatomy/Bio</Link>
                     </li>
                     <li>
-                        <Link to="/panda-world/Behavior">Behavior</Link>
+                        <Link to="/panda-world/behavior">Behavior</Link>
                     </li>
                     <li>
-                        <Link to="/panda-world/MiscFacts">Misc Facts</Link>
+                        <Link to="/panda-world/misc-facts">Misc Facts</Link>
                     </li>
                 </ul>
             </nav>
