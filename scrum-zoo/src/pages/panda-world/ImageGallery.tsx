@@ -7,7 +7,7 @@ const ImageGallery: React.FC = () => {
             <p>Welcome to the Panda Image Gallery! Here you will find a collection of adorable panda images.</p>
             {/* Placeholder for image gallery */}
             <div className="gallery">
-                <img src="/assets/panda.jpg" alt="Panda" />
+                <img src="/assets/panda.png" alt="Panda" />
                 {/* Additional images can be added here */}
             </div>
         </div>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import SearchBox from './components/SearchBox';
 import Home from './pages/Home';
 import PandaHome from './pages/panda-world/PandaHome';
 import About from './pages/panda-world/About';
@@ -21,7 +21,6 @@ const App = () => {
     <Router>
       <div>
         <Header />
-        <SearchBox />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/panda-world" element={<PandaHome />} />
