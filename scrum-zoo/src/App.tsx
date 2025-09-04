@@ -11,6 +11,7 @@ import Mating from './pages/panda-world/Mating';
 import DietaryInfo from './pages/panda-world/DietaryInfo';
 import ImageGallery from './pages/panda-world/ImageGallery';
 import AnatomyBio from './pages/panda-world/AnatomyBio';
+import Habitat from './pages/panda-world/Habitat';
 import Behavior from './pages/panda-world/Behavior';
 import MiscFacts from './pages/panda-world/MiscFacts';
 import './styles/global.css';
@@ -30,6 +31,7 @@ const App = () => {
           <Route path="/panda-world/dietary-info" element={<DietaryInfo />} />
           <Route path="/panda-world/image-gallery" element={<ImageGallery />} />
           <Route path="/panda-world/anatomy-bio" element={<AnatomyBio />} />
+          <Route path="/panda-world/habitat" element={<Habitat />} />
           <Route path="/panda-world/behavior" element={<Behavior />} />
           <Route path="/panda-world/misc-facts" element={<MiscFacts />} />
         </Routes>
