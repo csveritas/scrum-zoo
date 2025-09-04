@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import SearchBox from './components/SearchBox';
@@ -21,18 +21,18 @@ const App = () => {
       <div>
         <Header />
         <SearchBox />
-        <Switch>
-          <Route path="/" exact component={Home} />
-          <Route path="/panda-world" exact component={PandaHome} />
-          <Route path="/panda-world/about" component={About} />
-          <Route path="/panda-world/contact" component={Contact} />
-          <Route path="/panda-world/mating" component={Mating} />
-          <Route path="/panda-world/dietary-info" component={DietaryInfo} />
-          <Route path="/panda-world/image-gallery" component={ImageGallery} />
-          <Route path="/panda-world/anatomy-bio" component={AnatomyBio} />
-          <Route path="/panda-world/behavior" component={Behavior} />
-          <Route path="/panda-world/misc-facts" component={MiscFacts} />
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/panda-world" element={<PandaHome />} />
+          <Route path="/panda-world/about" element={<About />} />
+          <Route path="/panda-world/contact" element={<Contact />} />
+          <Route path="/panda-world/mating" element={<Mating />} />
+          <Route path="/panda-world/dietary-info" element={<DietaryInfo />} />
+          <Route path="/panda-world/image-gallery" element={<ImageGallery />} />
+          <Route path="/panda-world/anatomy-bio" element={<AnatomyBio />} />
+          <Route path="/panda-world/behavior" element={<Behavior />} />
+          <Route path="/panda-world/misc-facts" element={<MiscFacts />} />
+        </Routes>
         <Footer />
       </div>
     </Router>
