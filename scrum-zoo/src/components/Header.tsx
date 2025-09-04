@@ -30,7 +30,7 @@ const Header: React.FC = () => {
                         <Link to="/panda-world/ImageGallery">Image Gallery</Link>
                     </li>
                     <li>
-                        <Link to="/panda-world/AnatomyBio">Anatomy/Bio</Link>
+                        <Link to="/panda-world/anatomy-bio">Anatomy/Bio</Link>
                     </li>
                     <li>
                         <Link to="/panda-world/Behavior">Behavior</Link>
