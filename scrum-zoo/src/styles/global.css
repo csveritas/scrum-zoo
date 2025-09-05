@@ -4,7 +4,8 @@ body {
     font-family: Arial, sans-serif;
 }
 
-header, footer {
+header,
+footer {
     background-color: #f8f8f8;
     padding: 10px;
     text-align: center;
@@ -29,19 +30,21 @@ nav a:hover {
 }
 
 .link-button {
-  display: inline-block;
-  padding: 10px 16px;
-  background-color: #2563eb; /* blue */
-  color: white;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.2s ease;
-  
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #2563eb;
+    /* blue */
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease;
+
 }
 
 .link-button:hover {
-  background-color: #1d4ed8; /* darker blue */
+    background-color: #1d4ed8;
+    /* darker blue */
 }
 
 .search-box {
@@ -53,8 +56,44 @@ nav a:hover {
 }
 
 .center-container {
-  display: flex;
-  justify-content: center; /* horizontal */
-  align-items: center;     /* vertical */
-  height: 120px;           /* full viewport height */
+    display: flex;
+    justify-content: center;
+    /* horizontal */
+    align-items: center;
+    /* vertical */
+    height: 120px;
+    /* full viewport height */
+}
+
+
+
+
+.contact-form {
+    background-color: #fff;
+    color: #000;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.form-label {
+    color: #000;
+}
+
+.btn-custom {
+    background-color: #c00;
+    /* red button */
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #900;
+}
+
+.form-control:focus {
+    border-color: #c00;
+    box-shadow: 0 0 5px rgba(204, 0, 0, 0.5);
 }
