@@ -2,12 +2,26 @@ body {
     background-color: white;
     margin: 0;
     font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-header, footer {
+header {
     background-color: #f8f8f8;
     padding: 10px;
     text-align: center;
+}
+
+footer {
+    background: #f8f8f8;
+    text-align: center;
+    padding: 1rem;
+    align-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 h1 {
@@ -28,11 +42,80 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.link-button {
+    display: inline-block;
+    padding: 10px 16px;
+    background-color: #2563eb;
+    /* blue */
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease;
+
+}
+
+.link-button:hover {
+    background-color: #1d4ed8;
+    /* darker blue */
+}
+
 .search-box {
-    margin: 20px 0;
+    margin: 0px 20px;
 }
 
 .search-box input {
-    padding: 5px;
-    width: 200px;
+    size: 60;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    /* horizontal */
+    align-items: center;
+    /* vertical */
+    height: 120px;
+    /* full viewport height */
+}
+
+.panda-background {
+    background: linear-gradient(to right,
+            #FF0000,
+            #FFFFFF,
+            #FFA500);
+    height: 100vh;
+
+}
+
+
+
+
+.contact-form {
+    background-color: #fff;
+    color: #000;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 2rem auto;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+}
+
+.form-label {
+    color: #000;
+}
+
+.btn-custom {
+    background-color: #c00;
+    /* red button */
+    color: #fff;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #900;
+}
+
+.form-control:focus {
+    border-color: #c00;
+    box-shadow: 0 0 5px rgba(204, 0, 0, 0.5);
 }
