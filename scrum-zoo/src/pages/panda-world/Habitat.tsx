@@ -45,8 +45,6 @@ const Habitat: React.FC = () => {
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/RedPandaFullBody.JPG" alt="Red Panda in its natural habitat" style={{ maxWidth: '100%', borderRadius: '6px', marginBottom: '0.5rem' }} />
             <p style={{ fontSize: '0.9rem', color: '#555' }}>A red panda in a bamboo-rich forest, its preferred habitat.</p>
         </div>
-    </section>
-</div>
 
     );
 };
