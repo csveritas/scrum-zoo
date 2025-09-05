@@ -17,6 +17,33 @@ const Habitat: React.FC = () => {
                     <li><strong>Arboreal lifestyle:</strong> Helps them stay hidden from predators and access food sources easily.</li>
                 </ul>
             </section>
+            <section style={{ marginBottom: '1.5rem' }}>
+                <h2 style={{ color: '#228B22', fontSize: '1.2rem' }}>🗣️ How Do Red Pandas Talk?</h2>
+                <p style={{ fontSize: '1.1rem' }}>Red pandas don’t talk like people, but they have their own special ways of communicating!</p>
+                <h3 style={{ color: '#b33c00', fontSize: '1.1rem', marginTop: '1rem' }}>🐾 Sounds and Noises</h3>
+                <ul style={{ lineHeight: '1.7', marginLeft: '1.5rem', fontSize: '1.1rem' }}>
+                    <li><strong>Squeals</strong> – when they’re excited or scared</li>
+                    <li><strong>Twitters</strong> – soft chirpy noises</li>
+                    <li><strong>Huff-quacks</strong> – a mix between a puff and a duck sound!</li>
+                </ul>
+                <p style={{ fontSize: '1.1rem' }}>They use these sounds to say things like “I’m here!” or “Watch out!”—especially when it’s time to find a mate or protect their space.</p>
+                <h3 style={{ color: '#b33c00', fontSize: '1.1rem', marginTop: '1rem' }}>🌳 Smelly Messages (Scent Marking)</h3>
+                <p style={{ fontSize: '1.1rem' }}>Red pandas also use smells to send messages. They have special scent glands near their tails and feet. They rub these on trees, rocks, and the ground to say:</p>
+                <ul style={{ lineHeight: '1.7', marginLeft: '1.5rem', fontSize: '1.1rem' }}>
+                    <li>“This is my home!”</li>
+                    <li>“I’ve been here!”</li>
+                    <li>“Stay away!”</li>
+                </ul>
+                <p style={{ fontSize: '1.1rem' }}>This helps red pandas avoid fights, since they like to live alone and have their own space.</p>
+                <h3 style={{ color: '#b33c00', fontSize: '1.1rem', marginTop: '1rem' }}>😼 What If They Feel Scared?</h3>
+                <ul style={{ lineHeight: '1.7', marginLeft: '1.5rem', fontSize: '1.1rem' }}>
+                    <li>Hiss or make a loud warning sound</li>
+                    <li>Stand on its back legs to look bigger</li>
+                    <li>Arch its back or show its teeth</li>
+                </ul>
+                <p style={{ fontSize: '1.1rem' }}>These moves help red pandas look tough and tell others, “Don’t mess with me!”</p>
+                <p style={{ fontSize: '1.1rem', marginTop: '1rem' }}>Even though red pandas are small and quiet, they’re pretty smart when it comes to keeping safe and talking to other animals!</p>
+            </section>
         </div>
     );
 };
