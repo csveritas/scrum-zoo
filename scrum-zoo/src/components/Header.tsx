@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Header.css'; // Assuming you will create a CSS file for header styles
 import PandaWorldDropdown from './Dropdown';
-import SearchBox from './SearchBox';
 
 const Header: React.FC = () => {
     const navLinks = [
@@ -27,9 +26,6 @@ const Header: React.FC = () => {
                             <Link to={link.href}>{link.label}</Link>
                         </li>
                     ))}
-                    <li>
-                        <SearchBox />
-                    </li>
                 </ul>
             </nav>
         </header>
