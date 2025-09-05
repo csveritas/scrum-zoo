@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contact: React.FC = () => {
     return (
-        <div className='panda-background'>
+    <div>
         <div className="container " style={{background: "0xf8f8f8", paddingTop: "20px"}}>
             <div className="contact-form">
                 <h2 className="text-center mb-4" style= {{color:"#c00" }}>Contact Us</h2>
