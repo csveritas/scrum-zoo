@@ -6,14 +6,13 @@ import SearchBox from './SearchBox';
 
 const Header: React.FC = () => {
     const navLinks = [
-        { label: "About", href: "/panda-world/About" },
-        { label: "Contact", href: "/panda-world/Contact" },
-        { label: "Mating", href: "/panda-world/Mating" },
-        { label: "Dietary Info", href: "/panda-world/DietaryInfo" },
-        { label: "Image Gallery", href: "/panda-world/ImageGallery" },
-        { label: "Anatomy/Bio", href: "/panda-world/AnatomyBio" },
-        { label: "Behavior", href: "/panda-world/Behavior" },
-        { label: "Misc Facts", href: "/panda-world/MiscFacts" },
+        { label: "About", href: "/panda-world/about" },
+        { label: "Contact", href: "/panda-world/contact" },
+        { label: "Habitat", href: "/panda-world/habitat" },
+        { label: "Dietary Info", href: "/panda-world/dietary-info" },
+        { label: "Anatomy/Bio", href: "/panda-world/anatomy-bio" },
+        { label: "Behavior", href: "/panda-world/behavior" },
+        { label: "Misc Facts", href: "/panda-world/misc-facts" },
     ];
 
 
@@ -25,9 +24,11 @@ const Header: React.FC = () => {
                     <li>
                         <Link to="/">Home</Link>
                     </li>
-                    <li>
-                        <PandaWorldDropdown label="Panda World" links={navLinks} />
-                    </li>
+                    {navLinks.map(link => (
+                        <li key={link.href}>
+                            <Link to={link.href}>{link.label}</Link>
+                        </li>
+                    ))}
                     <li>
                         <SearchBox />
                     </li>
