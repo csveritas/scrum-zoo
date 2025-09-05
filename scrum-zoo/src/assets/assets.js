@@ -1,3 +1,3 @@
 import pandaImage from "./panda.png"
-
-export {pandaImage};
+import others from "./otheranimals.png"
+export {pandaImage, others};

@@ -9,7 +9,6 @@ const Contact: React.FC = () => {
             <p>If you have any questions or inquiries about pandas, feel free to reach out!</p>
             <p>Email: info@scrumzoo.com</p>
             <p>Phone: (123) 456-7890</p>
-            <Footer />
         </div>
     );
 };

@@ -23,16 +23,16 @@ const App = () => {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/panda-world" element={<PandaHome />} />
+          <Route path="/panda-world/PandaHome" element={<PandaHome />} />
           <Route path="/panda-world/about" element={<About />} />
           <Route path="/panda-world/contact" element={<Contact />} />
           <Route path="/panda-world/mating" element={<Mating />} />
-          <Route path="/panda-world/dietary-info" element={<DietaryInfo />} />
-          <Route path="/panda-world/image-gallery" element={<ImageGallery />} />
-          <Route path="/panda-world/anatomy-bio" element={<AnatomyBio />} />
+          <Route path="/panda-world/dietaryinfo" element={<DietaryInfo />} />
+          <Route path="/panda-world/imagegallery" element={<ImageGallery />} />
+          <Route path="/panda-world/anatomybio" element={<AnatomyBio />} />
           <Route path="/panda-world/habitat" element={<Habitat />} />
           <Route path="/panda-world/behavior" element={<Behavior />} />
-          <Route path="/panda-world/misc-facts" element={<MiscFacts />} />
+          <Route path="/panda-world/miscfacts" element={<MiscFacts />} />
         </Routes>
         <Footer />
       </div>
