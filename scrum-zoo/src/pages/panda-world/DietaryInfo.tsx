@@ -2,7 +2,7 @@ import React from 'react';
 
 const DietaryInfo: React.FC = () => {
     return (
-        <div>
+        <div className='panda-background'>
             <h1>Panda Dietary Information</h1>
             <p>Pandas primarily eat bamboo, but they also consume other plants and occasionally small animals.</p>
             <p>Here are some key points about their diet:</p>
