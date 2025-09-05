@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contact: React.FC = () => {
     return (
-
-        <div className="container">
+        <div className='panda-background'>
+        <div className="container " style={{background: "0xf8f8f8", paddingTop: "20px"}}>
             <div className="contact-form">
                 <h2 className="text-center mb-4" style= {{color:"#c00" }}>Contact Us</h2>
                 <p>If you have any questions or inquiries about pandas, feel free to reach out!</p>
@@ -28,6 +28,7 @@ const Contact: React.FC = () => {
                     <button type="submit" className="btn btn-custom w-100">Send Message</button>
                 </form>
             </div>
+        </div>
         </div>
     )};
 
