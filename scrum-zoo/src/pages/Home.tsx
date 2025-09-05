@@ -5,7 +5,7 @@ import {pandaImage, others} from "../assets/assets";
 const Home: React.FC = () => {
     return (
         <div>
-            <main style={{ backgroundColor: 'white' }}>
+            <main className='panda-background' style={{background: "#f8f8f8"}}>
                 <h1 className="center-container">Welcome to the Scrum Zoo</h1>
 
                 <div className="container text-center">

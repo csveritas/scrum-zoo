@@ -4,7 +4,7 @@ import Footer from '../../components/Footer';
 
 const Mating = () => {
     return (
-        <div style={{ background: 'white', padding: '2rem', borderRadius: '8px', maxWidth: '700px', margin: '2rem auto', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+        <div className='panda-background' style={{padding: '2rem', borderRadius: '8px', maxWidth: '700px', margin: '2rem auto', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
             <h1 style={{ color: '#b33c00', marginBottom: '1rem' }}>Red Panda Mating & Reproduction</h1>
             <section style={{ marginBottom: '1.5rem' }}>
                 <h2 style={{ color: '#333', fontSize: '1.2rem' }}>Gestational Period</h2>

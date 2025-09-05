@@ -18,7 +18,7 @@ const PandaHome: React.FC = () => {
 
     return (
         <div>
-            <main style={{ backgroundColor: 'white' }}>
+            <main className='panda-background'>
                 <div className="container text-center">
                     <div className="row">
                         <div className="col-6 col-sm-6">
