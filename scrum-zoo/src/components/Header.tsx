@@ -9,7 +9,7 @@ const Header: React.FC = () => {
         { label: "About", href: "/panda-world/about" },
         { label: "Contact", href: "/panda-world/contact" },
         { label: "Habitat", href: "/panda-world/habitat" },
-        { label: "Dietary Info", href: "/panda-world/dietary-info" },
+        { label: "Dietary Info", href: "/panda-world/DietaryInfo" },
         { label: "Anatomy/Bio", href: "/panda-world/anatomy-bio" },
         { label: "Behavior", href: "/panda-world/behavior" },
         { label: "Misc Facts", href: "/panda-world/misc-facts" },
