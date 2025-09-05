@@ -6,13 +6,11 @@ import SearchBox from './SearchBox';
 
 const Header: React.FC = () => {
     const navLinks = [
-        { label: "About", href: "/panda-world/about" },
         { label: "Contact", href: "/panda-world/contact" },
         { label: "Habitat", href: "/panda-world/habitat" },
         { label: "Dietary Info", href: "/panda-world/DietaryInfo" },
         { label: "Anatomy/Bio", href: "/panda-world/AnatomyBio" },
         { label: "Behavior", href: "/panda-world/Behavior" },
-        { label: "Misc Facts", href: "/panda-world/MiscFacts" },
     ];
 
 
