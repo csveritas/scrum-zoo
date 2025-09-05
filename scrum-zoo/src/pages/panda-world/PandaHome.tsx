@@ -18,7 +18,7 @@ const PandaHome: React.FC = () => {
 
     return (
         <div>
-            <main className='panda-background'>
+            <main>
                 <div className="container text-center">
                     <div className="row">
                         <div className="col-12" style={{ marginBottom: '2rem' }}>
@@ -40,27 +40,7 @@ const PandaHome: React.FC = () => {
                                 Pandas are large, bear-like mammals that are native to China. They are known for their distinctive black and white coloring and are a symbol of conservation efforts worldwide. Pandas primarily eat bamboo, but they are technically classified as carnivores. They have a unique digestive system that allows them to process large amounts of bamboo daily.
                             </p>
                         </div>
-                        <div className="container col-6 col-sm-4" style={{
-                            display: "flex",
-                            justifyContent: "center",
-                            alignItems: "center",
-                            height: "50vh"
-                        }}>
-                            <ul>
-                                <div>
-                                    {navLinks.map((link, index) => (
-                                        <li key={index}>
-                                            <Link
-                                                to={link.href}
-                                                className="block px-4 py-2 hover:bg-gray-100"
-                                            >
-                                                {link.label}
-                                            </Link>
-                                        </li>
-                                    ))}
-                                </div>
-                            </ul>
-                        </div>
+                        {/* Navigation links removed as requested */}
                     </div>
                 </div>
             </main>
