@@ -7,7 +7,6 @@ import Home from './pages/Home';
 import PandaHome from './pages/panda-world/PandaHome';
 import About from './pages/panda-world/About';
 import Contact from './pages/panda-world/Contact';
-import Mating from './pages/panda-world/Mating';
 import DietaryInfo from './pages/panda-world/DietaryInfo';
 import ImageGallery from './pages/panda-world/ImageGallery';
 import AnatomyBio from './pages/panda-world/AnatomyBio';
@@ -26,9 +25,8 @@ const App = () => {
           <Route path="/panda-world/PandaHome" element={<PandaHome />} />
           <Route path="/panda-world/about" element={<About />} />
           <Route path="/panda-world/contact" element={<Contact />} />
-          <Route path="/panda-world/mating" element={<Mating />} />
+          <Route path="/panda-world/habitat" element={<Habitat />} />
           <Route path="/panda-world/dietaryinfo" element={<DietaryInfo />} />
-          <Route path="/panda-world/imagegallery" element={<ImageGallery />} />
           <Route path="/panda-world/anatomybio" element={<AnatomyBio />} />
           <Route path="/panda-world/habitat" element={<Habitat />} />
           <Route path="/panda-world/behavior" element={<Behavior />} />
