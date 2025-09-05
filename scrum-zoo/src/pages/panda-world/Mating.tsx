@@ -1,7 +1,7 @@
 import React from 'react';
 const Habitat = () => {
     return (
-        <div className='panda-background' style={{padding: '2rem', borderRadius: '8px', maxWidth: '700px', margin: '2rem auto', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
+    <div style={{padding: '2rem', borderRadius: '8px', maxWidth: '700px', margin: '2rem auto', boxShadow: '0 2px 8px rgba(0,0,0,0.05)' }}>
             <h1 style={{ color: '#b33c00', marginBottom: '1rem', fontFamily: 'Comic Sans MS, Comic Sans, cursive' }}>Where Do Red Pandas Live?</h1>
             <section style={{ marginBottom: '1.5rem' }}>
                 <h2 style={{ color: '#228B22', fontSize: '1.2rem' }}>A Forest Wonderland</h2>
