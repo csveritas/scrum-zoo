@@ -26,7 +26,7 @@ const App = () => {
           <Route path="/panda-world/about" element={<About />} />
           <Route path="/panda-world/contact" element={<Contact />} />
           <Route path="/panda-world/habitat" element={<Habitat />} />
-          <Route path="/panda-world/dietaryinfo" element={<DietaryInfo />} />
+          <Route path="/panda-world/dietary-info" element={<DietaryInfo />} />
           <Route path="/panda-world/anatomybio" element={<AnatomyBio />} />
           <Route path="/panda-world/habitat" element={<Habitat />} />
           <Route path="/panda-world/behavior" element={<Behavior />} />
