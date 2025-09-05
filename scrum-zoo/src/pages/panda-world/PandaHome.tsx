@@ -20,11 +20,12 @@ const PandaHome: React.FC = () => {
         <div>
             <main className='panda-background'>
                 <div className="container text-center">
+                    <h1 style={{ paddingTop: "20px", paddingBottom: "20px" }}>The Scrum Zoo - Panda World</h1>
+                    <p>Welcome to Panda World! Explore the fascinating life of pandas.</p>
                     <div className="row">
                         <div className="col-6 col-sm-6">
-                            <h1>The Scrum Zoo - Panda World</h1>
                             <img src={pandaImage} alt="Panda" style={{ width: '300px', height: 'auto', paddingBottom: '20px' }} />
-                            <p>Welcome to Panda World! Explore the fascinating life of pandas.</p>
+                            
                         </div>
                         <div className="container col-6 col-sm-4" style={{
                             display: "flex",
@@ -32,10 +33,11 @@ const PandaHome: React.FC = () => {
                             alignItems: "center",
                             height: "50vh"
                         }}>
-                            <ul>
-                                <div>
-                                    {navLinks.map((link, index) => (
-                                        <li>
+
+                            <div className="container text-center">
+                                {navLinks.map((link, index) => (
+                                    <div className="row" style={{padding: "15px"}}>
+                                        <div className="col">
                                             <Link
                                                 key={index}
                                                 to={link.href}
@@ -43,15 +45,15 @@ const PandaHome: React.FC = () => {
                                             >
                                                 {link.label}
                                             </Link>
-                                        </li>
-                                    ))}
-                                </div>
+                                        </div>
+                                    </div>
+                                ))}
 
-
-                            </ul>
+                            </div>
+                            
                         </div>
                     </div>
-                </div>
+                    </div>
             </main>
         </div>
     );

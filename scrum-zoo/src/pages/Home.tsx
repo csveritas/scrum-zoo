@@ -11,10 +11,13 @@ const Home: React.FC = () => {
                 <div className="container text-center">
                 <div className="row">
                     <div className="col-4 col-sm-4">
-                        <Link to="/panda-world/PandaHome">
+                        <figure>
                         <img src={pandaImage} alt="Panda" style={{ width: '300px', height: 'auto', paddingBottom: '20px'}} />
+                        <figcaption>Roberta the Red Panda</figcaption>
+                        </figure>
+                        <Link to="/panda-world/PandaHome">
                         <h3>Panda World</h3>
-                    </Link>
+                        </Link>
                     </div>
                     <div className="col-8 col-sm-4">
                         <img src={others} alt="others" style={{ width: '300px', height: 'auto' }} />
