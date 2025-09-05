@@ -19,9 +19,14 @@ const Home: React.FC = () => {
                         <h3>Panda World</h3>
                         </Link>
                     </div>
-                    <div className="col-8 col-sm-4">
+                    <div className="col-4 col-sm-4">
                         <img src={others} alt="others" style={{ width: '300px', height: 'auto' }} />
-                        <h3>Penguin/Tiger World coming soon!</h3>
+                        <h3>Penguin World coming soon!</h3>
+                    </div>
+
+                    <div className="col-4 col-sm-4">
+                        <img src={others} alt="others" style={{ width: '300px', height: 'auto' }} />
+                        <h3>Tiger World coming soon!</h3>
                     </div>
                 </div>
                 </div>
